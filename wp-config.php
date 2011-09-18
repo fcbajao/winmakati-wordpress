@@ -16,16 +16,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'winmakati');
+define('DB_NAME', 'winmakati-phpfogapp-com');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'Custom App-12811');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'winmakati');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'db01-share');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
