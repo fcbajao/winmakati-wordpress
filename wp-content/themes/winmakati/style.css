@@ -68,7 +68,7 @@ body {
 }
 
 #navigation {
-  border: 5px solid #FFFFFF;
+  border: 5px solid #111924;
   background: url(images/home-banner.jpg) no-repeat;
   width: 950px;
   height: 311px;
@@ -85,15 +85,16 @@ body {
 }
 #navigation ul li {
   display: inline-block;
-  padding: 20px 30px;
-  opacity: 0.5;
-}
-#navigation ul li:hover {
-  background: url(images/white-translucent-sprite.png);
-  opacity: 1;
 }
 #navigation ul li a {
+  display: block;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #b9b9b9;
   font-size: 24px;
+  padding: 20px 30px;
+  font-weight: bold;
+}
+#navigation ul li a:hover {
+  background: url(images/white-translucent-sprite.png);
+  color: #000000;
 }
