@@ -24,4 +24,11 @@
       <h2><?php bloginfo( 'description' ); ?></h2>
     </div>
 
+    <ul id="navigation">
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Get Connected</a></li>
+      <li><a href="#">Winners Everyday</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+
     <div id="content">

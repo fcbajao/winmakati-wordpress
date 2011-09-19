@@ -47,7 +47,7 @@ body {
 #header {
   padding-top: 30px;
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 #header h1 {
   width: 219px;
@@ -68,33 +68,17 @@ body {
 }
 
 #navigation {
-  border: 5px solid #111924;
-  background: url(images/home-banner.jpg) no-repeat;
-  width: 950px;
-  height: 311px;
-  position: relative;
-}
-#navigation ul {
   list-style: none;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
   background: url(images/black-light-translucent-sprite.png);
+  padding: 10px;
+  margin-bottom: 20px;
 }
-#navigation ul li {
+#navigation li {
   display: inline-block;
+  margin: 0 10px;
 }
-#navigation ul li a {
-  display: block;
+#navigation a {
+  color: #FFFFFF;
   text-decoration: none;
-  color: #b9b9b9;
-  font-size: 24px;
-  padding: 20px 30px;
-  font-weight: bold;
-}
-#navigation ul li a:hover {
-  background: url(images/white-translucent-sprite.png);
-  color: #000000;
+  font-size: 18px;
 }

@@ -1,5 +1,8 @@
 <?php
 
+add_theme_support( 'post-thumbnails' );
+set_post_thumbnail_size( 960, 300, true );
+
 function page_title() {
 	/*
 	 * Print the <title> tag based on what is being viewed.
@@ -18,7 +21,7 @@ function page_title() {
 
 	// Add a page number if necessary:
 	if ( $paged >= 2 || $page >= 2 )
-		echo ' | ' . sprintf( __( 'Page %s', 'twentyeleven' ), max( $paged, $page ) );
+		echo ' | ' . sprintf( __( 'Page %s', 'winmakati' ), max( $paged, $page ) );
 }
 
 function home_page_link_title() {
