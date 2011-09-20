@@ -28,4 +28,27 @@ function home_page_link_title() {
   echo esc_attr( get_bloginfo( 'name', 'display' ) );
 }
 
+function link_to_post_thumbnail() {
+  if ( has_post_thumbnail() ) {
+    ?>
+    <a href="<?php the_permalink(); ?>" class="thumbnail-link-to-post" title="<?php the_title_attribute(); ?>" >
+      <?php the_post_thumbnail('thumbnail'); ?>
+    </a>
+    <?php
+  }
+}
+
+function entry_title_with_link() {
+  ?>
+	<h3 class="entry-title">
+    <a
+      href="<?php the_permalink(); ?>"
+      title="<?php printf( esc_attr__( 'Permalink to %s', 'winmakati' ), the_title_attribute( 'echo=0' ) ); ?>"
+      rel="bookmark">
+      <?php the_title(); ?>
+    </a>
+  </h3>
+  <?php
+}
+
 ?>

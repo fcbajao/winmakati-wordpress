@@ -82,3 +82,44 @@ body {
   text-decoration: none;
   font-size: 18px;
 }
+
+#slider {
+  margin-bottom: 50px;
+}
+
+#left-col {
+  padding-right: 300px;
+}
+
+#recent-posts {
+}
+
+#recent-posts .post {
+  padding: 15px;
+  background: #0C1622;
+  position: relative;
+  margin-bottom: 20px;
+}
+#recent-posts .post h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#recent-posts .post h3 a {
+  text-decoration: none;
+  color: #A2ACBB;
+}
+#recent-posts .post .excerpt {
+  color: #67707E;
+}
+#recent-posts .post.with-thumbnail {
+  min-height: 150px;
+}
+#recent-posts .post.with-thumbnail .content {
+  padding-left: 165px;
+}
+#recent-posts .post.with-thumbnail .thumbnail-link-to-post {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
